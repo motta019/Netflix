@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+main h1{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 4em;
+    text-align: center;
+    color: #940505;
+    margin-top: 10%;
+}
+
+main h2{
+    font-family: "Roboto", serif;
+    font-weight: 250;
+    font-size: 2.5em;
+    text-align: center;
+    color: #333;
+    margin-top: 10%;
+   
+}
+.inpt{
+    width: 80%;
+    height: 60px;
+    float: left;
+    margin-left: 10%;
+    border-radius: 30px;
+    outline: none;
+    border: 0;
+    box-shadow: 1px 1px 3px #33333344;
+    margin-top: 5%;
+    text-indent: 40px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+.lbr{
+    width: 20px;
+    height: 20px;
+    float: left 12%;
+    margin-left: 12%;
+    border-radius: 40%;
+    margin-top: 4%;
+}
+
+#avs{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 0%;
+    margin-left: 20%;
+    
+}
+#ajd{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: right;
+    float: right 8%;
+    margin-right: 8%;
+    margin-top: 0%;
+  
+}
+
+#email{
+    background-image: url('../img/user_icon.png');
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position-x: 8px;
+    background-position-y: center;
+}
+#pass{
+    margin-bottom: 5%;
+    background-image: url('../img/lock_icon.png');
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position-x: 8px;
+    background-position-y: center;
+}
+#forgot{
+    width: 100%;
+    float: left;
+    /* background: red; */
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 1.1em;
+    color: #999;
+}
+#bt-login{
+    text-indent: 0 !important;
+    background: #E6465A !important;
+    color: #e6b3b9;
+}
+#dont{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: #555;
+    font-weight: bold;
+    margin-top: 5%;
+}
+#dont a{
+    text-decoration: none;
+    color: #444;
+    font-weight: bolder;
+}
+#or{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: #444;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+.bt-login{
+    width: 60px;
+    height: 60px;
+    float: left 2%;
+    margin-left: 2%;
+    border-radius: 40%;
+    margin-top: 10%;
+}
+#bt-google{
+    background: url('../img/317727_facebook_social\ media_social_icon.png');
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+
+   }
+   #cnt{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 0%;
+    margin-left: 17%;
+   }
+   #nvo{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 4%;
+    margin-left: 17%;
+   }
+   #bt-ass{
+    float: left 45%;
+    margin-left: 45%;
+    margin-top: 0%;
+    border: 0.2;
+   }
+
+   
